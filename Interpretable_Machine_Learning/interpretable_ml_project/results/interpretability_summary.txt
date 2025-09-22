@@ -1,0 +1,36 @@
+
+COMPREHENSIVE INTERPRETABILITY ANALYSIS SUMMARY
+==============================================
+
+DATASET: Heart Disease (UCI) - 242 train, 61 test samples
+
+SHAP ANALYSIS:
+- Expected value (baseline): 0.4616
+- Top 3 features by SHAP importance:
+  1. thal: 0.102
+  2. ca: 0.094
+  3. cp: 0.091
+
+FEATURE IMPORTANCE CORRELATIONS:
+- Random Forest vs SHAP: 0.714
+- Logistic Regression vs SHAP: 0.300
+- Random Forest vs Logistic Regression: -0.040
+
+CONSENSUS TOP FEATURES:
+thal, ca, cp, thalach, oldpeak
+
+INTERPRETABILITY INSIGHTS:
+1. High consistency between RF and SHAP importance
+2. Low consistency between LR and SHAP importance
+3. SHAP provides model-agnostic explanations
+4. LIME offers local instance-specific explanations
+5. Partial dependence plots reveal feature-target relationships
+
+FILES GENERATED:
+- SHAP summary plot: shap_summary.png
+- SHAP bar plot: shap_bar.png
+- SHAP waterfall plot: shap_waterfall.png
+- LIME explanation: lime_explanation.png
+- Feature importance comparison: importance_comparison.png
+- Partial dependence plots: partial_dependence.png
+- Comprehensive results: interpretability_results.json

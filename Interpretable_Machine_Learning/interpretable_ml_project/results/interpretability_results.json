@@ -1,0 +1,303 @@
+{
+  "feature_importance_comparison": [
+    {
+      "feature": "age",
+      "importance": 0.09104112368126699,
+      "abs_coefficient": 0.11232167636976612,
+      "shap_importance": 0.024431130560354647,
+      "rf_importance_norm": 0.672118372454811,
+      "lr_importance_norm": 0.11260256779521904,
+      "shap_importance_norm": 0.2406078230288805
+    },
+    {
+      "feature": "ca",
+      "importance": 0.10088333697916892,
+      "abs_coefficient": 0.9975054616341986,
+      "shap_importance": 0.09430896942437125,
+      "rf_importance_norm": 0.7447792988104476,
+      "lr_importance_norm": 1.0,
+      "shap_importance_norm": 0.9287935230520018
+    },
+    {
+      "feature": "chol",
+      "importance": 0.08882831401262808,
+      "abs_coefficient": 0.1372110843346592,
+      "shap_importance": 0.020667503996674993,
+      "rf_importance_norm": 0.6557821282071592,
+      "lr_importance_norm": 0.13755421861036057,
+      "shap_importance_norm": 0.20354208053515765
+    },
+    {
+      "feature": "cp",
+      "importance": 0.12716311279654066,
+      "abs_coefficient": 0.20497431832248938,
+      "shap_importance": 0.09146721237328499,
+      "rf_importance_norm": 0.9387918443133721,
+      "lr_importance_norm": 0.2054869133114148,
+      "shap_importance_norm": 0.9008067307113976
+    },
+    {
+      "feature": "exang",
+      "importance": 0.050730379793258396,
+      "abs_coefficient": 0.7963030085079911,
+      "shap_importance": 0.03888420242529493,
+      "rf_importance_norm": 0.37452108368116693,
+      "lr_importance_norm": 0.7982943844772734,
+      "shap_importance_norm": 0.3829476197448931
+    },
+    {
+      "feature": "fbs",
+      "importance": 0.011706395968389082,
+      "abs_coefficient": 0.3975351538374934,
+      "shap_importance": 0.002697903399387843,
+      "rf_importance_norm": 0.08642340392382702,
+      "lr_importance_norm": 0.3985293004674053,
+      "shap_importance_norm": 0.02657006240727577
+    },
+    {
+      "feature": "oldpeak",
+      "importance": 0.08940114192466359,
+      "abs_coefficient": 0.4203020761533897,
+      "shap_importance": 0.05030290706505211,
+      "rf_importance_norm": 0.66001107605365,
+      "lr_importance_norm": 0.421353157771001,
+      "shap_importance_norm": 0.4954037198993458
+    },
+    {
+      "feature": "restecg",
+      "importance": 0.01838927420679548,
+      "abs_coefficient": 0.17276182690371708,
+      "shap_importance": 0.011938908835081861,
+      "rf_importance_norm": 0.13576028667844542,
+      "lr_importance_norm": 0.17319386564629322,
+      "shap_importance_norm": 0.11757928504589085
+    },
+    {
+      "feature": "sex",
+      "importance": 0.036011087004252186,
+      "abs_coefficient": 0.7990488601806777,
+      "shap_importance": 0.03318563731808038,
+      "rf_importance_norm": 0.265854728159587,
+      "lr_importance_norm": 0.801047102911705,
+      "shap_importance_norm": 0.32682580657509236
+    },
+    {
+      "feature": "slope",
+      "importance": 0.04662627312303875,
+      "abs_coefficient": 0.14097509649932174,
+      "shap_importance": 0.038572546751416165,
+      "rf_importance_norm": 0.34422218814878947,
+      "lr_importance_norm": 0.14132764372875142,
+      "shap_importance_norm": 0.3798783064750335
+    },
+    {
+      "feature": "thal",
+      "importance": 0.12293951044335157,
+      "abs_coefficient": 0.28811818674974093,
+      "shap_importance": 0.10153921951832025,
+      "rf_importance_norm": 0.9076107623502342,
+      "lr_importance_norm": 0.2888387059833448,
+      "shap_importance_norm": 1.0
+    },
+    {
+      "feature": "thalach",
+      "importance": 0.1354540024679775,
+      "abs_coefficient": 0.5346657262703307,
+      "shap_importance": 0.052652649389275843,
+      "rf_importance_norm": 1.0,
+      "lr_importance_norm": 0.53600280583366,
+      "shap_importance_norm": 0.518544948829117
+    },
+    {
+      "feature": "trestbps",
+      "importance": 0.08082604759866896,
+      "abs_coefficient": 0.2277793845021559,
+      "shap_importance": 0.015629712194386986,
+      "rf_importance_norm": 0.5967047567883934,
+      "lr_importance_norm": 0.22834900986806456,
+      "shap_importance_norm": 0.15392783466852422
+    }
+  ],
+  "shap_analysis": {
+    "expected_value": 0.46157024793388446,
+    "feature_importance": [
+      {
+        "feature": "thal",
+        "shap_importance": 0.10153921951832025
+      },
+      {
+        "feature": "ca",
+        "shap_importance": 0.09430896942437125
+      },
+      {
+        "feature": "cp",
+        "shap_importance": 0.09146721237328499
+      },
+      {
+        "feature": "thalach",
+        "shap_importance": 0.052652649389275843
+      },
+      {
+        "feature": "oldpeak",
+        "shap_importance": 0.05030290706505211
+      },
+      {
+        "feature": "exang",
+        "shap_importance": 0.03888420242529493
+      },
+      {
+        "feature": "slope",
+        "shap_importance": 0.038572546751416165
+      },
+      {
+        "feature": "sex",
+        "shap_importance": 0.03318563731808038
+      },
+      {
+        "feature": "age",
+        "shap_importance": 0.024431130560354647
+      },
+      {
+        "feature": "chol",
+        "shap_importance": 0.020667503996674993
+      },
+      {
+        "feature": "trestbps",
+        "shap_importance": 0.015629712194386986
+      },
+      {
+        "feature": "restecg",
+        "shap_importance": 0.011938908835081861
+      },
+      {
+        "feature": "fbs",
+        "shap_importance": 0.002697903399387843
+      }
+    ],
+    "top_features": [
+      "thal",
+      "ca",
+      "cp",
+      "thalach",
+      "oldpeak"
+    ]
+  },
+  "lime_analysis": {
+    "explanations": [
+      [
+        [
+          "thal <= 3.00",
+          -0.2108020566322573
+        ],
+        [
+          "ca <= 0.00",
+          -0.19074904125354306
+        ],
+        [
+          "3.00 < cp <= 4.00",
+          0.16453498738352781
+        ],
+        [
+          "0.00 < sex <= 1.00",
+          0.08161316025697697
+        ],
+        [
+          "slope <= 1.00",
+          -0.07800686367658496
+        ],
+        [
+          "thalach > 0.72",
+          -0.07164773954069778
+        ],
+        [
+          "exang <= 0.00",
+          -0.06771979002206986
+        ],
+        [
+          "0.17 < age <= 0.73",
+          0.021004582516272362
+        ]
+      ],
+      [
+        [
+          "3.00 < thal <= 7.00",
+          0.21518995213250214
+        ],
+        [
+          "ca <= 0.00",
+          -0.1810553296183981
+        ],
+        [
+          "3.00 < cp <= 4.00",
+          0.16737559306086905
+        ],
+        [
+          "0.00 < sex <= 1.00",
+          0.0797127235341543
+        ],
+        [
+          "slope <= 1.00",
+          -0.07601905642364132
+        ],
+        [
+          "oldpeak > 0.48",
+          0.07561340196789625
+        ],
+        [
+          "exang <= 0.00",
+          -0.06753015680070598
+        ],
+        [
+          "trestbps > 0.47",
+          0.039712559122947556
+        ]
+      ],
+      [
+        [
+          "thal <= 3.00",
+          -0.2138877007156094
+        ],
+        [
+          "ca <= 0.00",
+          -0.1851722787243695
+        ],
+        [
+          "2.25 < cp <= 3.00",
+          -0.10157876841518237
+        ],
+        [
+          "sex <= 0.00",
+          -0.08633959073844123
+        ],
+        [
+          "slope <= 1.00",
+          -0.07259523284855046
+        ],
+        [
+          "exang <= 0.00",
+          -0.06695757748904631
+        ],
+        [
+          "-0.90 < oldpeak <= -0.21",
+          -0.05673444126516933
+        ],
+        [
+          "-0.71 < age <= 0.17",
+          -0.025287364019599128
+        ]
+      ]
+    ]
+  },
+  "correlations": {
+    "rf_shap": 0.7135594243142375,
+    "lr_shap": 0.3002319407122076,
+    "rf_lr": -0.039734635550928904
+  },
+  "top_features_consensus": [
+    "thal",
+    "ca",
+    "cp",
+    "thalach",
+    "oldpeak"
+  ]
+}
